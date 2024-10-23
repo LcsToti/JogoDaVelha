@@ -1,4 +1,4 @@
-# JogoDaVelha
+# #️⃣ JogoDaVelha
 
 <img src="https://github.com/user-attachments/assets/24ff5998-ff83-4d51-a9d7-6efb424c7c85" height="350px">
 
@@ -8,14 +8,10 @@ Neste simples projeto busquei reproduzir o clássico Jogo da Velha utilizando fe
 
 Você pode acessar o projeto clicando <a href="https://lcstoti.github.io/JogoDaVelha/src/index.html"> aqui </a>
 
-## Linguagens
+## 🛠️ Linguagens e Ferramentas
 
-* HTML
-* CSS
-* Javascript
-
-### Versões
-
-<ul>
-  <li>Versão 1.0</li>
-</ul>
+- [x] HTML
+- [x] CSS
+- [x] Javascript
+- [x] Git
+- [x] GitHub
