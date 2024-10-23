@@ -1,6 +1,6 @@
 # JogoDaVelha
 
-<img src="https://github.com/user-attachments/assets/24ff5998-ff83-4d51-a9d7-6efb424c7c85" height="150px">
+<img src="https://github.com/user-attachments/assets/24ff5998-ff83-4d51-a9d7-6efb424c7c85" height="350px">
 
 `1º Projeto pessoal` 
 
