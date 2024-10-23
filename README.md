@@ -6,7 +6,7 @@
 
 Neste simples projeto busquei reproduzir o clássico Jogo da Velha utilizando ferramentas básicas de uma aplicação front-end estática, utilizando conhecimento que adquiri na 1ª etapa do curso de ADS, na <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS">PUC Minas</a>.
 
-#### <a href="https://lcstoti.github.io/JogoDaVelha/src/index.html">Acesse aqui! </a>
+#### <a href="https://lcstoti.github.io/JogoDaVelha/src/index.html" target="_blank">Acesse aqui!</a>
 
 ## 🛠️ Linguagens e Ferramentas
 
