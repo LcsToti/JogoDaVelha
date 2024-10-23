@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    font-size: 50px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    height: 95dvh;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+
+    background-color: #1a232b;
+}
+
+#message {
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    color: #1a232b;
+    font-size: 50px;
+    font-weight: 600;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#symbTurn {
+    font-weight: 900;
+    background-color: #5db0ff;
+    border-radius: 15px;
+    padding: 0 15px;
+}
+
+#victory {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+
+    background-color: white;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#winnerSymb {
+    padding: 0 25px;
+    border-radius: 15px;
+    background-color: white;
+
+    color: white;
+}
+
+#draw {
+    display: none;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    background-color: #6e6e6e;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.conteiner {
+    background-color: white;
+    width: 300px;
+    min-height: 320px;
+    border-radius: 20px;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.slot {
+    width: 1/3;
+    height: 1/3;
+    background-color: #3d4d5c;
+    font-weight: 600;
+    font-size: 60px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.slotEmpty:hover {
+    animation: pulseColor 1s infinite;
+}
+
+@keyframes pulseColor {
+    0% {
+        background-color: #3d4d5c;
+    }
+
+    50% {
+        background-color: #6988a5;
+    }
+
+    100% {
+        background-color: #3d4d5c;
+    }
+}
+
+.slotFilled {
+    cursor: default;
+}
+
+.slotEnded {
+    background-color: #6e6e6e;
+    cursor: default;
+}
+
+.X {
+    background-color: #5db0ff;
+}
+
+.O {
+    background-color: #ff5d5d;
+}
+
+#newGame {
+    background-color: #48a89b;
+    color: white;
+    padding: 10px 10px;
+    border: 4px solid #48a89b;
+    border-radius: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#newGame:hover {
+    scale: 1.1
+}
+
+#relative {
+    position: relative;
+}
+
+#newGameSure {
+    font-size: 50px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #1a232b;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+
+    position: absolute;
+    top: 0;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#newGameBox {
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.optionsNG {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+button {
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 0px;
+    width: 120px;
+    background-color: #ff5d5d;
+    transition: 0.3s ease;
+}
+
+#yes {
+    background-color: transparent;
+    color: #5db0ff;
+    border: 4px solid #5db0ff
+}
+
+#yes:hover {
+    background-color: #5db0ff;
+    color: white;
+}
+
+#no {
+    background-color: transparent;
+    color: #ff5d5d;
+    border: 4px solid #ff5d5d
+}
+
+#no:hover {
+    background-color: #ff5d5d;
+    color: white;
+}
+
+@media screen and (max-height: 750px) {
+    #logoPNG {
+        width: 120px
+    }
+
+    #newGame {
+        padding: 10px 10px;
+        border-radius: 20px;
+        font-size: 30px;
+    }
+
+    #message {
+        padding: 10px 10px;
+        border-radius: 20px;
+        font-size: 30px;
+
+    }
+}

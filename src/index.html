@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script src="assets/script.js" defer></script>
+  </head>
+  <body>
+    <img src="assets/logo.png" alt="LOGO" width="160px" id="logoPNG" />
+    <div id="message">
+      <div>Vez do <span id="symbTurn">X</span></div>
+    </div>
+    <div id="victory"><span id="winnerSymb">Y</span> Venceu!</div>
+    <div id="draw">Empate!</div>
+
+    <div class="conteiner" id="table">
+      <div class="slot slotEmpty" id="0-0"></div>
+      <div class="slot slotEmpty" id="0-1"></div>
+      <div class="slot slotEmpty" id="0-2"></div>
+      <div class="slot slotEmpty" id="1-0"></div>
+      <div class="slot slotEmpty" id="1-1"></div>
+      <div class="slot slotEmpty" id="1-2"></div>
+      <div class="slot slotEmpty" id="2-0"></div>
+      <div class="slot slotEmpty" id="2-1"></div>
+      <div class="slot slotEmpty" id="2-2"></div>
+    </div>
+    <button id="newGame">Novo Jogo</button>
+    <div id="relative"></div>
+  </body>
+  <div id="newGameSure">
+    <div id="newGameBox">
+      <div>Tem certeza?</div>
+      <div class="optionsNG">
+        <button id="yes">SIM</button>
+        <button id="no">NAO</button>
+      </div>
+    </div>
+  </div>
+</html>
